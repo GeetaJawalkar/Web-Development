@@ -6,27 +6,30 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 }
-#header{
-	background-color: #66CCFF;
+#header h1{
+	background-color: #66ccff;	
 	color:white;
 	text-align: center;
-	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
+
 #content{
 	padding: 10px;
+	padding-right: 10px;
 }
 #nav{	
+	height: 500px;
+	background-color: #99ff99;
+	padding-left: 10px;
+	padding-right: 20px;
 	float: left;
-	color: green;
 	line-height: 2;
 	letter-spacing: 1px;
 }
-#main{	
-	float: center;
-}
-#footer{
-	clear: all;
-}
+
 #nav ul{
 	list-style-type: none;
 	padding: 0px;
@@ -36,8 +39,9 @@ h1{margin: 0;}
 #maingrid{
 	display:grid;
 	grid-template-columns: repeat(4, 1fr);	
-	padding: 1em;
-	grid-gap: 1em;
+	padding: 10px;
+	grid-gap: 10px;
+	background-color: white;
 }
 
 #maingrid > div{
@@ -45,16 +49,16 @@ h1{margin: 0;}
 	font-size: 25px;
 	color: #66ccff;	
     background:white;
-    /*border-style: inset;*/
+    text-underline-position: center;
  }
 
  #footergrid{
  	display:grid;
- 	color: white;
+ 	color: black;
  	grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
- 	background-color: #66CCFF;
+ 	background-color: #ffff66;
 	grid-gap: 0em;
-	padding: 1em;
+	padding: 10px;
 	text-align: left;
  }
 
