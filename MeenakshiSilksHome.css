@@ -1,64 +1,53 @@
 body{
 	background-color: #EEE;
 }
-#container{
-	background-color: white;
-	margin-left: auto;
-	margin-right: auto;
-}
-#header h1{
+header{
 	background-color: #66ccff;	
 	color:white;
 	text-align: center;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding: 5px;	
+}
+h1{
+	font-size: 3.5em;
 }
 
-#content{
-	padding: 10px;
-	padding-right: 10px;
-}
 #nav{	
-	height: 500px;
-	background-color: #99ff99;
-	padding-left: 10px;
-	padding-right: 20px;
-	float: left;
+	float: left;	
+	background-color: #99ff99;	
 	line-height: 2;
 	letter-spacing: 1px;
-}
+	height: 46em;
 
-#nav ul{
+}
+#nav li{
 	list-style-type: none;
-	padding: 0px;
-}
-h1{margin: 0;}
-
-#maingrid{
-	display:grid;
-	grid-template-columns: repeat(4, 1fr);	
 	padding: 10px;
-	grid-gap: 10px;
-	background-color: white;
 }
-
-#maingrid > div{
+ 
+#maingrid {	
+	display: grid;			
+	padding: 10px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;		
+	background-color: white;
+	height: 45em;
+}
+#maingrid > figure{	
 	text-align: center;
 	font-size: 25px;
 	color: #66ccff;	
-    background:white;
+    background-color :white;
     text-underline-position: center;
  }
-
- #footergrid{
- 	display:grid;
- 	color: black;
- 	grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
- 	background-color: #ffff66;
-	grid-gap: 0em;
-	padding: 10px;
-	text-align: left;
+footer{ 	
+ 	color: black; 	
+ 	background-color: #ffff66;	
+	padding: 5px;
+	height: 2.5em;
  }
-
+ footer li{
+	list-style-type: none;
+	margin-right: 15px;
+	float: left;
+}
+ 
